@@ -1,0 +1,536 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* fonts */
+
+
+@font-face {
+    font-family: font1;
+    src: url(./Assets/Fonts/Exo2-Medium.ttf);
+}
+
+
+@font-face {
+    font-family:font2 ;
+    src: url(./Assets/Fonts/Exo2-ExtraLight.ttf);
+}
+
+/* container */
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 175, 124);
+   
+}
+
+/* Sidebar */
+
+.box1{
+    width: 25%;
+    height: 100%;
+    background-color:rgb(134, 46, 46);
+     display:inline-block;
+     vertical-align: top;
+}
+
+.imge{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 1em 0 0 3em ;
+    border: 2px solid  rgb(139, 55, 55);
+    outline: 3px solid wheat;
+} 
+
+/*  sidebar content */
+
+/* about  */
+
+
+
+.link2,.hthree1{
+    font-family: "Bebas Neue", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 1.9em;
+    text-decoration: none;
+}
+
+
+.hthree1:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* expereince */
+
+.link3,.hthree2{
+    font-family: "Bebas Neue", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 1em 0 0 0;
+    text-decoration: none;
+}
+
+
+.hthree2:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* education */
+
+.linkk4,.three3{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.three3:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* skills */
+
+.link5,.three4{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+.three4:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* interest */
+
+
+.link6,.three5{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.three5:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* award and certificate */
+
+
+.link7,.three6{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.three6:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/* Content Box */
+
+
+
+.box2{
+    height: 99%;
+    width: 74.3%;
+    background-color:rgb(253, 247, 238);
+    display: inline-block;
+    overflow: auto;
+} 
+
+
+/* about us */
+
+
+
+.boxchild{
+    font-family: chakra petch;
+    color: rgb(139, 55, 55);
+    font-size: 3.5em;
+    margin: 2em 0 0 1em;
+    
+}
+
+
+.black{
+    color: #0b0b0b;
+}
+
+
+
+.boxchild2{
+    margin: 1em 0 0 2em; 
+    color: rgba(12, 12, 12, 0.7)   ;
+     font-family:font1 ;
+   
+}  
+
+
+.link1,.span1{
+     color: rgb(139, 55, 55);
+     font-weight: bold;
+     display: block;
+     margin: 1em 0 0 0;
+}
+
+
+.para1{
+    font-size: 1.5em;
+    color: rgba(6, 6, 6, 0.8);
+    margin: 2em 2em 0 2em;
+    
+}
+
+/* icons styling */
+
+.icon1{
+    color: white;
+background-color: rgb(46, 46, 46);
+padding: 0.4em 0.6em 0.5em 0.5em;
+border-radius: 50%;
+text-decoration: none;
+font-size: 1.8em;
+
+}
+
+.in:hover{
+    color: brown;
+
+}
+
+
+.icon2{
+    color: white;
+background-color: rgb(46, 46, 46);
+padding: 0.4em 0.3em 0.5em 0.5em;
+border-radius: 50%;
+text-decoration: none;
+font-size: 1.8em;
+
+}
+
+
+.git:hover{
+    color: brown;
+}
+
+
+.icon3{
+    color: white;
+background-color: rgb(46, 46, 46);
+padding: 0.5em 0.3em 0.4em 0.5em;
+border-radius: 50%;
+text-decoration: none;
+font-size: 1.8em;
+vertical-align: sub;
+
+
+}
+
+.twin:hover{
+    color: brown;
+}
+
+
+.icon4{
+    color: white;
+background-color: rgb(46, 46, 46);
+padding: 0.5em 0.6em 0.3em 0.7em;
+border-radius: 50%;
+font-size: 1.8em;
+vertical-align: sub;
+
+}
+
+.face:hover{
+    color: brown;
+}
+
+.border{
+    margin-top: 5em;
+    border: 1px solid rgb(213, 175, 124);
+}
+
+
+
+/* Experience */
+
+
+
+.ho1{
+    font-family: chakra petch;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 2em 0 0 1em;
+} 
+
+
+.ht1{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 2em 0 0 1em;
+    text-transform: uppercase;
+}
+
+
+.span2{
+    display: block;
+    margin: 1em 0 0 0;
+    color: rgba(26, 26, 26, 0.6);
+   font-family:font2;
+}
+
+
+.para2{
+    font-size: 1.4em;
+    color: rgba(6, 6, 6, 0.8);
+    margin: 2em 2em 2em 3em;
+    text-align: justify;
+    
+    
+}
+
+.span3{
+    display: block;
+    color:rgb(139, 55, 55) ;
+    margin: 2em 0 0 0;
+    text-transform: capitalize;
+    font-family: chakra petch;
+}
+
+
+.bottom{
+    margin: 3em 0 0 0;
+    border: 1px solid rgb(213, 175, 124);
+}
+
+
+/* Education */
+
+
+.education{
+    font-family: chakra petch;
+    margin: 4em 0 0 1em;
+    text-transform: uppercase;
+}
+
+
+.colg{
+    margin: 2em 0 0 1em;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-family: chakra petch;
+    color: rgb(22, 22, 22);
+}
+
+
+.course{
+    display: block;
+    text-transform:uppercase;
+    margin: 1em 0 0 0;
+    color: rgba(5, 5, 5, 0.7);
+    font-family: "Barlow", sans-serif;
+}
+
+
+.edtion{
+    font-size: 1.5em;
+    color: rgba(11, 11, 11, 0.6);
+    margin: 2em 0 0 1em;
+    text-transform: capitalize;
+}
+
+
+
+.bottom3{
+    margin: 5em 0 0 0;
+    border: 1px solid  rgb(213, 175, 124)
+    
+}
+
+/* skills */
+
+
+.skillclass{
+    font-family: chakra petch;
+    margin: 2em 0 0 1em;
+    text-transform: uppercase;
+}
+
+
+.skillh{
+    color:rgb(108, 106, 106);
+    margin: 2em 0 0 2em;
+    font-family: Space Grotesk;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+
+/* icons */
+
+.html{
+    margin: 1em 0 0 1em;
+    font-size: 4em;
+    color: rgb(108, 106, 106);
+}
+
+
+.work{
+    margin: 2em 0 2em 2em;
+    color: rgb(108, 106, 106);
+    font-family: chakra petch;
+}
+
+
+
+ .check{
+    margin: 0 0 0 2em;
+    color: rgb(72, 72, 72);
+}
+
+
+
+.skspan{
+    color: rgb(108, 106, 106);
+     text-transform: capitalize;
+      margin-left: 1em;
+     font-size: 1.3em;
+     font-family: chakra petch;
+     
+}
+
+
+.bottom4{
+    margin-top: 5em;
+    border: 1px solid   rgb(213, 175, 124);
+}
+
+
+
+/* interest */
+
+
+
+
+.inter{
+    font-family: chakra petch;
+    margin: 3em 0 0 1em;
+    text-transform: uppercase;
+}
+
+
+
+.interpara{
+    font-size: 1.4em;
+    color: rgba(6, 6, 6, 0.8);
+    margin: 4em 2em 4em 3em;
+    text-align: justify;
+    
+}
+
+
+
+.bottom5{
+    margin-top: 12em;
+    border: 1px solid   rgb(213, 175, 124);
+}
+
+
+/* awarde and certificate */
+
+
+
+.awardh{
+    font-family: chakra petch;
+   margin: 3em 0 3em 1em;
+   text-transform: uppercase;
+}
+
+
+
+.trophy{
+    color: rgb(234, 176, 40);
+    margin: 1em 0 0 3em; 
+
+}
+
+
+.sp{
+    color:rgb(108, 106, 106); 
+    text-transform: capitalize;
+    font-size: 1.2em;
+  
+}
+
+
+.super{
+    text-transform: lowercase;
+    vertical-align: super;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
